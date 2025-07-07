@@ -10,7 +10,7 @@ public class LoginFrame extends JFrame {
     private JPasswordField textocontrasena;
 
     public LoginFrame() {
-        usuarioValido = new Usuario("admin1", "12345");
+        usuarioValido = new Usuario("administrador", "1234");
         setTitle("Empresa Kuantic");
         setSize(400, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
